@@ -3,7 +3,9 @@
 -- 曜日（day）は数字のまま返してよい
 
 -- 区画1：月曜日の授業（時限の早い順）
-
+SELECT * FROM courses
+WHERE day = '1'
+ORDER BY period ASC
 
 -- 区画2：必修科目（科目コードの順）
 
